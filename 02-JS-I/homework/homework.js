@@ -247,10 +247,9 @@ function esVocal(letra){
     return "Es vocal"
   } else if (letra=="u") {
     return "Es vocal"
-  } else if (letra.length=="2") {
+  } else if (letra.length > 1) {
     return "Dato incorrecto"
   }
-
 }
 
 
